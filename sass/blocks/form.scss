@@ -1,0 +1,33 @@
+.input-field {
+  margin-bottom: 50px;
+}
+.text-input__label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+}
+.text-input {
+  background: none;
+  border: 0;
+  height: 40px;
+  width: 100%;
+  display: block;
+  color: $text-light;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  transition: border .2s;
+  padding-bottom: 6px;
+  &:focus {
+    border-color: #fff;
+  }
+}
+input.text-input {
+  font-size: 13px;
+}
+
+/*------------- MEDIA -------------*/
+@media screen and (max-width: $phone) {
+  input.text-input {
+    font-size: 16px;
+  }
+}

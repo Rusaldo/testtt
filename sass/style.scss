@@ -1,0 +1,14 @@
+//---------- GLOBAL ------------
+@import "normalize.scss";
+@import "variables.scss";
+@import "global.scss";
+
+//---------- BLOCKS ------------
+@import "blocks/btn.scss";
+@import "blocks/logo.scss";
+@import "blocks/form.scss";
+
+//--------- SECTIONS -----------
+@import "blocks/s-welcome.scss";
+@import "blocks/s-login.scss";
+@import "blocks/s-contacts.scss";

@@ -1,0 +1,56 @@
+.login {
+  width: 60%;
+  height: 100%;
+  float: left;
+  padding: 58px 102px;
+  background: url(../img/login-gun.png) no-repeat right -270px top 20%;
+}
+.login__form {
+  margin: 90px 0 52px;
+  max-width: 308px;
+}
+.login__btn {
+  width: 96%;
+  margin-left: 6px;
+  i {
+    position: relative;
+    left: 5px;
+    top: 1px;
+  }
+}
+.login__text {
+  max-width: 414px;
+  color: $text-light-secondary;
+}
+
+/*------------- MEDIA -------------*/
+@media screen and (max-width: $laptop) {
+  .login {
+    background-position: right -384px center;
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .login {
+    height: auto;
+    width: 100%;
+    float: none;
+    text-align: center;
+    background: none;
+  }
+  .login__form {
+    margin: 50px auto 30px;
+  }
+  .login__text {
+    margin: 0 auto;
+  }
+  .contacts {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .login {    
+    padding: 40px 5%;
+  }
+}

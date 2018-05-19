@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  background: none;
+  border: none;
+  height: 54px;
+  padding: 0 47px;
+  line-height: 50px;
+  font-size: 14px;
+  color: $text-light;
+  border: 2px solid #e7e7e5;
+  transform: skew(-13deg);
+  transition: background-color .2s, color .2s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: $text-light;
+  color: $text-dark;
+}
+.btn__text {
+  display: inline-block;
+  transform: skew(13deg);
+  white-space: nowrap;
+}
